@@ -1,0 +1,95 @@
+html, body { background-color: #f0f2f5;
+       margin: 0;
+       height: 100%;}
+.logo { height: 106px;
+        /* margin: -28px;} */
+        margin: 0 0.1%;}
+#description {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    /* margin: 0 385px; */
+    text-align: left;
+    margin: 0 0.1%;
+    padding: 20px 76%;
+}
+#form { padding-left: 70px;
+    width: 150px;
+    height: 150px;
+    margin-left: 15px;
+    float: right;
+    border: 2px;
+    border-radius: 10px;
+}
+.loginbox { 
+    width: 320px;
+    height: 420px;
+    background: #ffffff;
+    color: #000000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+.mainContent { background-color: #f0f2f5;
+               min-height: 90%;
+               display: flex;
+               text-align: center;
+             }
+.footer { background-color: #ffffff;
+          min-height: 10%;}
+.leftdiv { width:70%;
+           background-color: #f0f2f5;
+           margin: auto;
+           min-height: 100%;
+           padding: 0 0 20px;
+         }
+.rightdiv { width: 30%;
+            background-color: #f0f2f5;
+            margin: auto;
+            min-height: 100%;
+          }
+.loginForm { width: 370px;
+             margin:auto;
+             box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+             padding: 10px;
+             text-align: center;
+             background-color: #ffff;
+             height:400px;
+             border-spacing: 2px;
+            }
+.loginButton { background-color: #1877f2;
+               border: none;
+               border-radius: 6px;
+               font-size: 20px;
+               line-height: 48px;
+               padding: 0 16px;
+               width: 332px;
+               color: #ffff;
+            }
+.loginEmail,.loginPassword { background-color: #ffffff;
+                             border:2px;
+                             border-radius: 10px;
+                             font-size: 20px;
+                             line-height: 48px;
+                             padding: 0 16px;
+                             width: 332px; 
+
+                            }   
+.fbLogo  { height: 106px;
+           margin: -28px;
+           border: 0;
+           direction: ltr;
+         }       
+.newaccountButton { background-color: #42b72a;
+                    border: 2px;
+                    border-radius: 10px;
+                    font-size: 17px;
+                    line-height: 48px;
+                    padding: 0 16px;
+                    width: 280px;
+                    color: #ffff;
+                  }
